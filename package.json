@@ -1,0 +1,26 @@
+{
+    "name"        : "miner-rpc",
+    "author"      : "James Nylen <jnylen@gmail.com>",
+    "description" : "CGMiner and BFGMiner RPC client",
+    "version"     : "0.0.1",
+    "repository"  : {
+        "type" : "git",
+        "url"  : "https://github.com/nylen/node-miner-rpc"
+    },
+    "bugs" : {
+        "url" : "https://github.com/nylen/node-miner-rpc/issues"
+    },
+    "license"  : "MIT",
+    "keywords" : [
+        "bitcoin",
+        "mining",
+        "miner",
+        "cgminer",
+        "bfgminer",
+        "rpc"
+    ],
+    "bin" : {
+        "miner-rpc" : "bin/miner-rpc.js"
+    },
+    "main" : "index.js"
+}
